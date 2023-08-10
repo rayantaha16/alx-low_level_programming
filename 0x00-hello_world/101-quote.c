@@ -7,6 +7,7 @@
  */
 int main(void)
 {
-	write ("and that piece of art is useful\" - Dora Korpar, 2015-10-19\n");
+	char quote[]="and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
+	write (0,quote,58);
 	return (1);
 }
