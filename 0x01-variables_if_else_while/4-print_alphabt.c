@@ -10,8 +10,9 @@ int main(void)
 
 	for (c = 97; c < 123; c++)
 	{
-		if (c != 101 || c != 113)
-			putchar(c);
+		if (c != 101)
+			if (c != 113)
+				putchar(c);
 	}
 	return (0);
 }
