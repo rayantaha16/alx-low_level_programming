@@ -13,4 +13,5 @@ int main(void)
 		if (c != 101 || c != 113)
 			putchar(c);
 	}
+	return (0);
 }
