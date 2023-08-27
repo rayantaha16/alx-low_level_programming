@@ -13,5 +13,4 @@
 			_putchar(d);
 		}
 		_putchar(10);
-	}
-	
+	}	
