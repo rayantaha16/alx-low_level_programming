@@ -4,17 +4,14 @@
  *
  * Return: Always 0 (Success)
  */
-int main(void)
-{
-	int d;
-
 	void print_alphabet(void)
 	{
+		int d;
+
 		for (d = 97; d < 122; d++)
 		{
 			_putchar(d);
 		}
 		_putchar(10);
 	}
-	return (0);
-}
+	
