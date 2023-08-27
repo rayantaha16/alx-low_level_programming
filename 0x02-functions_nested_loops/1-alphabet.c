@@ -4,16 +4,14 @@
  *
  * Return: Always 0 (Success)
  */
-int main (void)
+int main(void)
 {
-	int a;
+	int d;
 
-	int n = 10;
-
-	for (a = 97; a < 122; a++)
+	for (d = 97; d < 122; d++)
 	{
-		_putchar(a);
-		_putchar(n);
+		_putchar(d);
 	}
+	_putchar(10);
 	return (0);
 }
