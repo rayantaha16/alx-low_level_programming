@@ -8,9 +8,9 @@
 	{
 		int d;
 
-		for (d = 97; d < 122; d++)
+		for (d = 97; d < 123; d++)
 		{
 			_putchar(d);
 		}
 		_putchar(10);
-	}	
+	}
