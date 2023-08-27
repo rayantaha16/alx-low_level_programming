@@ -8,10 +8,13 @@ int main(void)
 {
 	int d;
 
-	for (d = 97; d < 122; d++)
+	void print_alphabet(void)
 	{
-		_putchar(d);
+		for (d = 97; d < 122; d++)
+		{
+			_putchar(d);
+		}
+		_putchar(10);
 	}
-	_putchar(10);
 	return (0);
 }
